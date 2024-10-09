@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, hsla(339, 73%, 20%, 0.459), hsla(235, 23%, 81%, 0.664)), url(img/maps-3.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+.in {
+    text-align: center;
+    margin: 250px 100px;
+}
+
+.contenedor {
+    opacity: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+textarea {
+    padding-right: 50px;
+}
+
+
+input, select, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.b{
+    width: 100%;
+    text-align: center;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+footer {
+    text-align: center;
+    color: white;
+}
